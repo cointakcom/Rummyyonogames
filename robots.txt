@@ -6,7 +6,86 @@ Disallow: /images/
 Disallow: /cdn-cgi/
 Allow: /*.js
 Allow: /*.css
+# robots.txt for Rummy Yono Games - Optimized for Google
+# Created: 2025-01-15
+# Last Updated: 2025-03-02
 
+# ----------------------------
+# ALL SEARCH ENGINES
+# ----------------------------
+User-agent: *
+Allow: /
+
+# Disallow sensitive/private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# ----------------------------
+# GOOGLE BOT (Special rules)
+# ----------------------------
+User-agent: Googlebot
+Allow: /
+
+# Googlebot ko images allow hain
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.webp$
+Disallow: /private-images/
+
+# Googlebot Video (if you have videos)
+User-agent: Googlebot-Video
+Allow: /
+
+# ----------------------------
+# BING BOT
+# ----------------------------
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1  # Bing supports this, Google ignores
+
+# ----------------------------
+# YANDEX (Russian search engine)
+# ----------------------------
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+Host: https://www.rummyyonogames.com  # Yandex supports this
+
+# ----------------------------
+# BAIDU (Chinese search engine)
+# ----------------------------
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# ----------------------------
+# OTHER BOTS
+# ----------------------------
+User-agent: Slurp  # Yahoo
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: FacebookExternalHit
+Allow: /
+
+# ----------------------------
+# SITEMAPS - MOST IMPORTANT FOR GOOGLE
+# ----------------------------
+Sitemap: https://www.rummyyonogames.com/sitemap.xml
+Sitemap: https://www.rummyyonogames.com/sitemap-images.xml
+
+# ----------------------------
+# CRAWL RATE SETTINGS (Optional)
+# Google Search Console mein set karein:
+# https://search.google.com/search-console/settings/crawl-rate
+# ----------------------------
 Sitemap: https://rummyyonogames.com/sitemap.xml
 
 # Crawl delay for politeness
