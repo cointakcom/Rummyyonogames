@@ -1,0 +1,47 @@
+{
+  "name": "RUMMY YONO GAMES - Best Gaming Apps 2025",
+  "short_name": "RUMMY YONO",
+  "description": "Best Gaming Apps, Yono Rummy Reviews and Safe Download Links. Get instant ₹100 bonus.",
+  "start_url": "https://rummyyonogames.com/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["games", "entertainment", "productivity"],
+  "screenshots": [
+    {
+      "src": "images/og-banner.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "images/banner.png",
+      "sizes": "1200x500",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/logo-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logo-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/favicon-32x32.jpg",
+      "sizes": "32x32",
+      "type": "image/jpeg"
+    }
+  ]
+}
