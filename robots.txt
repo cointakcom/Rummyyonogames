@@ -1,4 +1,5 @@
 # Yono Rummy Games - robots.txt for SEO
+# Search Engine Crawl Instructions
 
 User-agent: *
 Allow: /
@@ -6,42 +7,32 @@ Allow: /index.html
 Allow: /images/
 Disallow: /admin/
 Disallow: /private/
-Disallow: /*.pdf$
-Disallow: /*?*sort=
-Disallow: /*?*filter=
+Disallow: /temp/
 
-# Delay for slower crawlers
+# Crawl delay
 Crawl-delay: 1
 
-# Sitemap locations
+# Sitemaps
 Sitemap: https://rummyyonogames.com/sitemap.xml
 Sitemap: https://rummyyonogames.com/sitemap-index.xml
 
-# Specific bot instructions
+# Google Bot
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
+# Bing Bot
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
+# Other Bots
 User-agent: MJ12bot
 Allow: /
-Crawl-delay: 2
 
-# Block bad bots
+# Block Bad Bots
 User-agent: AhrefsBot
 Disallow: /
 
 User-agent: SemrushBot
 Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-# Default deny for new bots
-User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /temp/
