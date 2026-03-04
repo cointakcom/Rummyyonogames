@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://www.rummyyonogames.com/sitemap.xml</loc>
-    <lastmod>2025-01-15</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://www.rummyyonogames.com/sitemap-images.xml</loc>
-    <lastmod>2025-01-15</lastmod>
-  </sitemap>
+    <sitemap>
+        <loc>https://rummyyonogames.com/sitemap.xml</loc>
+        <lastmod>2025-03-04</lastmod>
+    </sitemap>
 </sitemapindex>
