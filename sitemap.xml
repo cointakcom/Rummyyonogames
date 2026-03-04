@@ -1,109 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
+    <!-- =============================================== -->
+    <!-- 1. HOMEPAGE - Highest Priority -->
+    <!-- =============================================== -->
     <url>
         <loc>https://rummyyonogames.com/</loc>
-        <lastmod>2025-03-04</lastmod>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/og-banner.jpg</image:loc>
+            <image:title>RUMMY YONO GAMES - Best Gaming Apps 2025</image:title>
+        </image:image>
+    </url>
+
+    <!-- =============================================== -->
+    <!-- 2. GAMES SECTION - High Priority -->
+    <!-- =============================================== -->
+    <url>
+        <loc>https://rummyyonogames.com/#games</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.95</priority>
+    </url>
+
+    <!-- =============================================== -->
+    <!-- 3. INDIVIDUAL GAMES - Medium High Priority -->
+    <!-- =============================================== -->
+    
+    <!-- Game 1: Indbet -->
+    <url>
+        <loc>https://rummyyonogames.com/games/indbet-yono-rummy-platform</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/rummy-se.jpeg</image:loc>
+            <image:title>Indbet - Yono Rummy Platform with ₹100 Bonus</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 2: Rummy Loot -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-loot-all-yono-games</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/334-rummy.jpeg</image:loc>
+            <image:title>Rummy Loot - All Yono Games Platform</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 3: Boss Rummy -->
+    <url>
+        <loc>https://rummyyonogames.com/games/boss-rummy-best-gaming-app</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/rummy-paisa.jpeg</image:loc>
+            <image:title>Boss Rummy - Best Gaming App with Instant Bonus</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 4: Rummy Apple -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-apple-gaming-apps-download</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/Rummy-Apple.jpeg</image:loc>
+            <image:title>Rummy Apple - Safe Gaming Apps Download</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 5: Rummy Most -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-most-best-card-games</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/rummymost.jpeg</image:loc>
+            <image:title>Rummy Most - Best Card Games Platform</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 6: Rummy Wealth -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-wealth-gaming-platform</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/rummy-welth.jpeg</image:loc>
+            <image:title>Rummy Wealth - Gaming Platform with Bonus</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 7: 66 Lottery -->
+    <url>
+        <loc>https://rummyyonogames.com/games/66-lottery-color-prediction</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/66.jpeg</image:loc>
+            <image:title>66 Lottery - Color Prediction Gaming App</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 8: Rummy Ola -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-ola-teen-patti-games</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/rummy-ola.jpeg</image:loc>
+            <image:title>Rummy Ola - Best Teen Patti Games</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 9: Rummy Gold -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-gold-best-gaming-apps-2025</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/rummy-gold.jpeg</image:loc>
+            <image:title>Rummy Gold - Best Gaming Apps 2025</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 10: Rummy Nabob -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-nabob-safe-gaming-platform</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/Rummy-Nabob.jpeg</image:loc>
+            <image:title>Rummy Nabob - Safe Gaming Platform</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 11: Rummy Mars -->
+    <url>
+        <loc>https://rummyyonogames.com/games/rummy-mars-gaming-app-download</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/Rummy-mars.jpeg</image:loc>
+            <image:title>Rummy Mars - Gaming App Download</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 12: Holy Rummy -->
+    <url>
+        <loc>https://rummyyonogames.com/games/holy-rummy-legal-gaming-apps</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/Holy-rummy.jpeg</image:loc>
+            <image:title>Holy Rummy - Legal Gaming Apps India</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 13: KWG Game -->
+    <url>
+        <loc>https://rummyyonogames.com/games/kwg-game-gaming-apps-india</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/KWG-Game.jpeg</image:loc>
+            <image:title>KWG Game - Gaming Apps India</image:title>
+        </image:image>
+    </url>
+
+    <!-- Game 14: Teenpatti Yes -->
+    <url>
+        <loc>https://rummyyonogames.com/games/teenpatti-yes-best-teen-patti-app</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <image:image>
+            <image:loc>https://rummyyonogames.com/images/Teenpatti-Yes.jpeg</image:loc>
+            <image:title>Teenpatti Yes - Best Teen Patti App</image:title>
+        </image:image>
+    </url>
+
+    <!-- =============================================== -->
+    <!-- 4. INFORMATION PAGES - Medium Priority -->
+    <!-- =============================================== -->
+    
+    <url>
+        <loc>https://rummyyonogames.com/#about</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
 
     <url>
-        <loc>https://rummyyonogames.com/games/indbet</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://rummyyonogames.com/#contact</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
     </url>
 
     <url>
-        <loc>https://rummyyonogames.com/games/rummy-loot</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://rummyyonogames.com/#privacy</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.60</priority>
     </url>
 
     <url>
-        <loc>https://rummyyonogames.com/games/boss-rummy</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://rummyyonogames.com/#terms</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.60</priority>
     </url>
 
     <url>
-        <loc>https://rummyyonogames.com/games/rummy-apple</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://rummyyonogames.com/#disclaimer</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.60</priority>
+    </url>
+
+    <!-- =============================================== -->
+    <!-- 5. ALTERNATIVE LANGUAGE VERSIONS -->
+    <!-- =============================================== -->
+    
+    <url>
+        <loc>https://rummyyonogames.com/en/</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.90</priority>
     </url>
 
     <url>
-        <loc>https://rummyyonogames.com/games/rummy-most</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/rummy-wealth</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/66-lottery</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/rummy-ola</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/rummy-gold</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/rummy-nabob</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/rummy-mars</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/holy-rummy</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/kwg-game</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://rummyyonogames.com/games/teenpatti-yes</loc>
-        <lastmod>2025-03-04</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://rummyyonogames.com/en-IN/</loc>
+        <lastmod>2025-01-16T15:45:00+05:30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.90</priority>
     </url>
 
 </urlset>
