@@ -1,109 +1,47 @@
-# robots.txt for rummyyonogames.com
+# Yono Rummy Games - robots.txt for SEO
+
 User-agent: *
 Allow: /
-Allow: /images/apps/
-Disallow: /images/
-Disallow: /cdn-cgi/
-Allow: /*.js
-Allow: /*.css
-# robots.txt for Rummy Yono Games - Optimized for Google
-# Created: 2025-01-15
-# Last Updated: 2025-03-02
+Allow: /index.html
+Allow: /images/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
 
-# ----------------------------
-# ALL SEARCH ENGINES
-# ----------------------------
-User-agent: *
+# Delay for slower crawlers
+Crawl-delay: 1
+
+# Sitemap locations
+Sitemap: https://rummyyonogames.com/sitemap.xml
+Sitemap: https://rummyyonogames.com/sitemap-index.xml
+
+# Specific bot instructions
+User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
 
-# Disallow sensitive/private areas
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 2
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Default deny for new bots
+User-agent: *
 Disallow: /admin/
 Disallow: /private/
 Disallow: /temp/
-Disallow: /cgi-bin/
-
-# ----------------------------
-# GOOGLE BOT (Special rules)
-# ----------------------------
-User-agent: Googlebot
-Allow: /
-
-# Googlebot ko images allow hain
-User-agent: Googlebot-Image
-Allow: /images/
-Allow: /*.jpg$
-Allow: /*.png$
-Allow: /*.webp$
-Disallow: /private-images/
-
-# Googlebot Video (if you have videos)
-User-agent: Googlebot-Video
-Allow: /
-
-# ----------------------------
-# BING BOT
-# ----------------------------
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1  # Bing supports this, Google ignores
-
-# ----------------------------
-# YANDEX (Russian search engine)
-# ----------------------------
-User-agent: Yandex
-Allow: /
-Crawl-delay: 2
-Host: https://www.rummyyonogames.com  # Yandex supports this
-
-# ----------------------------
-# BAIDU (Chinese search engine)
-# ----------------------------
-User-agent: Baiduspider
-Allow: /
-Crawl-delay: 2
-
-# ----------------------------
-# OTHER BOTS
-# ----------------------------
-User-agent: Slurp  # Yahoo
-Allow: /
-Crawl-delay: 2
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: FacebookExternalHit
-Allow: /
-
-# ----------------------------
-# SITEMAPS - MOST IMPORTANT FOR GOOGLE
-# ----------------------------
-Sitemap: https://www.rummyyonogames.com/sitemap.xml
-Sitemap: https://www.rummyyonogames.com/sitemap-images.xml
-
-# ----------------------------
-# CRAWL RATE SETTINGS (Optional)
-# Google Search Console mein set karein:
-# https://search.google.com/search-console/settings/crawl-rate
-# ----------------------------
-Sitemap: https://rummyyonogames.com/sitemap.xml
-
-# Crawl delay for politeness
-Crawl-delay: 0.5
-
-# Host
-Host: https://rummyyonogames.com
-
-# Google Image Bot
-User-agent: Googlebot-Image
-Allow: /images/apps/
-Allow: /images/og-banner.jpg
-
-# Google Ads Bot
-User-agent: AdsBot-Google
-Allow: /
-
-# Bing Bot
-User-agent: bingbot
-Allow: /
-Crawl-delay: 1
