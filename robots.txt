@@ -1,38 +1,54 @@
-# Yono Rummy Games - robots.txt for SEO
-# Search Engine Crawl Instructions
+# RUMMY YONO GAMES - robots.txt
+# Website: https://rummyyonogames.com
+# Last Updated: 2025-01-16
 
+# �� DEFAULT RULES FOR ALL BOTS
 User-agent: *
 Allow: /
-Allow: /index.html
 Allow: /images/
+Allow: /css/
+Allow: /js/
 Disallow: /admin/
 Disallow: /private/
 Disallow: /temp/
+Disallow: /cache/
+Disallow: /logs/
+Disallow: /?
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+Disallow: /*?*page=
+Disallow: /search?
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /modal/
+Disallow: /.well-known/
 
-# Crawl delay
+# ✅ CRAWL DELAY (Google को 1 second का wait)
 Crawl-delay: 1
+Request-rate: 30/1m
 
-# Sitemaps
-Sitemap: https://rummyyonogames.com/sitemap.xml
-Sitemap: https://rummyyonogames.com/sitemap-index.xml
-
-# Google Bot
+# ✅ GOOGLE SPECIFIC RULES
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
+Request-rate: unlimited
 
-# Bing Bot
+# ✅ BING SPECIFIC RULES
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
+Request-rate: 30/1m
 
-# Other Bots
-User-agent: MJ12bot
+# ✅ FACEBOOK CRAWLER
+User-agent: facebookexternalhit
 Allow: /
 
-# Block Bad Bots
-User-agent: AhrefsBot
-Disallow: /
+# ✅ TWITTER CRAWLER
+User-agent: Twitterbot
+Allow: /
 
-User-agent: SemrushBot
-Disallow: /
+# ✅ SITEMAP LOCATION (बहुत महत्वपूर्ण)
+Sitemap: https://rummyyonogames.com/sitemap.xml
+Sitemap: https://rummyyonogames.com/sitemap-games.xml
+Sitemap: https://rummyyonogames.com/sitemap-images.xml
